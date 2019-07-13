@@ -26,18 +26,7 @@ public class AboutActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
          myWebView = (WebView) findViewById(R.id.webview);
-        //myWebView.loadUrl("https://andela.com/alc");
-
-      /*  WebSettings webSettings = myWebView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-        webSettings.setUseWideViewPort(true);
-        webSettings.setLoadWithOverviewMode(true);
-
-        myWebView.setWebViewClient(new MyWebViewClient());
-        //myWebView.loadUrl("https://andela.com/alc/");
-        myWebView.loadUrl("https://www.google.com");*/
-
-
+      
 
         myWebView.getSettings().setJavaScriptEnabled(true); // enable javascript
 
